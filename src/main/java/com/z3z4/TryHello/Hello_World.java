@@ -8,5 +8,8 @@ public class Hello_World {
     @RequestMapping("/")
     public String index(){
         return "try again my friend";
+    }@RequestMapping("/this")
+    public String index2(){
+        return "this code for second branch";
     }
 }
